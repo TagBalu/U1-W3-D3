@@ -1,0 +1,30 @@
+main {
+  width: max-content;
+  margin-inline: auto;
+}
+
+input {
+  width: 300px;
+}
+
+input[type="submit"] {
+  min-height: 36px;
+}
+
+button[type="submit"] {
+  min-width: 180px;
+}
+#list {
+  list-style: none;
+  padding: 0;
+}
+
+#list li {
+  background-color: rgb(145, 221, 196);
+  margin-bottom: 4px;
+  padding: 0.5rem 0.5rem;
+}
+.strike {
+  text-decoration: line-through;
+  color: red;
+}
